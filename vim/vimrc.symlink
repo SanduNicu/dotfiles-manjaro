@@ -1,0 +1,11 @@
+filetype indent plugin on
+syntax on
+
+" Settings
+so ~/.dotfiles/vim/settings.vim
+
+" Plugins
+so ~/.dotfiles/vim/plugins.vim
+
+" Maps
+so ~/.dotfiles/vim/maps.vim

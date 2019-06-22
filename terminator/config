@@ -1,0 +1,37 @@
+[global_config]
+  borderless = True
+  suppress_multiple_term_dialog = True
+  title_inactive_bg_color = "#000000"
+  title_inactive_fg_color = "#babdb6"
+  title_receive_bg_color = "#000000"
+  title_receive_fg_color = "#babdb6"
+  title_transmit_bg_color = "#000000"
+  title_transmit_fg_color = "#babdb6"
+[keybindings]
+  switch_to_tab_1 = <Alt>1
+  switch_to_tab_2 = <Alt>2
+  switch_to_tab_3 = <Alt>3
+  switch_to_tab_4 = <Alt>4
+  switch_to_tab_5 = <Alt>5
+  switch_to_tab_6 = <Alt>6
+  switch_to_tab_7 = <Alt>7
+  switch_to_tab_8 = <Alt>8
+  switch_to_tab_9 = <Alt>9
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.95
+    background_image = None
+    background_type = transparent
+    font = Liberation Mono for Powerline 10
+    foreground_color = "#babdb6"
+    use_system_font = False
