@@ -38,6 +38,7 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
 let g:airline#extensions#ale#enabled = 1
 set laststatus=2
+let g:powerline_pycmd = 'py3'
 
 " Fuzzy file finder
 let g:fzf_action = {
